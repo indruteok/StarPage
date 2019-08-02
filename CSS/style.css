@@ -1,0 +1,192 @@
+/* Bendrieji parametrai */
+/* font-family ir pan. */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+
+/* HEADER */
+.header-container {
+    background-image: url(../IMG/nuotrauka.jpg);
+    background-size: cover;
+}
+/*0, 77, 1,*/
+.header-bgc {
+    background-color: rgba(192, 192, 1, 0.5);
+    background-size: cover;
+    width: 100%;
+    height: 480px;
+}
+
+.header-text {
+    width: 50%;
+    margin: 0 auto;
+}
+
+header h2,
+header h4,
+header p,
+header i {
+    box-sizing: border-box;
+    font-weight: normal;
+    font-size: 2.5em;
+    padding: 20px;
+}
+
+header i {
+    font-size: 6em;
+    display: inline;
+}
+
+header h2 {
+    text-align: right;
+    width: 45%;
+    font-size: 2.3em;
+}
+
+header p {
+    font-size: 1em;
+}
+
+header a {
+    font-size: 16px;
+    text-decoration: none;
+    background-color: rgb(93, 77,1);
+    border-radius: 2em;
+    padding: 8px 15px;
+}
+
+/* SECTION - ASIDE */
+
+nav {
+    background-color: rgb(80, 77,1);
+}
+
+nav i {
+    font-size: 40px;
+    display: inline;
+    padding: 10px 0 30px 0;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 2em;
+    padding: 10px 0 15px 0;
+}
+
+nav a {
+    color:  rgb(192, 192, 55);
+    display: inline;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 2em;
+    padding: 90px;
+}
+
+nav p {
+    font-size: 20px;
+}
+
+
+aside {}
+
+.aside-text {}
+
+/* MAIN */
+
+/* ARTICLE */
+
+
+.aside-container {
+    background-image: url(../IMG/nuotrauka.jpg);
+    background-size: cover;
+    /*    filter: grayscale(100%) opacity(5%); ka naudot? */
+    width: 100%;
+}
+
+.aside-bgc {
+    background-color: rgba(255, 255, 255, 0.9);
+    background-size: cover;
+    width: 100%;
+}
+
+h3 {
+    font-size: 1.5em;
+    padding: 10px 0 15px 0;
+    color: rgb(80, 77,1);
+    text-align: left;
+}
+
+article {
+    text-align: left;
+    font-size: 1em;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 1.8;
+    padding: 0 0 1em 0;
+}
+
+article p {
+    padding: 0 0 15px 0;
+    color: rgb(80, 77,1);
+    text-align: left;
+}
+
+article figure {
+    margin-right: 1em;
+}
+
+img {
+    border-radius: 8px;
+    width: 100%;
+}
+
+article a {
+    font-size: 16px;
+    text-decoration: none;
+    background-color: rgb(192, 192,1);
+    border-radius: 2em;
+    padding: 8px 15px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(80, 77,1);
+}
+
+footer h4 {
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.one::before {
+    content: "♞"
+}
+
+.two::before {
+    content: "♘"
+}
+
+footer li {
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 2em;
+    padding: 10px 0 15px 0;
+}
+
+footer p {
+    font-size: 1.1em;
+    padding: 30px 0 25px 0;
+    box-sizing: border-box;
+    width: 20em;
+    text-align: left;
+    line-height: 1.5;
+}
